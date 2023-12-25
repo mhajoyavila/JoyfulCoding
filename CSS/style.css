@@ -616,7 +616,7 @@ h3.my-profession
 {
   background: var(--skin-color);
 }
-service .service-item .service-item-inner:hover .icon .fa
+.service .service-item .service-item-inner:hover .icon .fa
 {
   font-size: 25px;
   color: #ffffff;
