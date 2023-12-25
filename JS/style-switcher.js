@@ -11,20 +11,20 @@ window.addEventListener("scroll", () => {
     }
 })
 /* =========================== theme colors ========================= */
-const alternateStyles = document.querySelectorAll(".alternate-style");
-function setActiveStyle(color)
-{
-    alternateStyles.forEach((style) => {
-        if(color === style.getAttribute("title"))
-        {
-            style.removeAttribute("disabled");
-        }
-        else
-        {
-            style.setAttribute("disabled","true");
-        }
-    })
-}
+// const alternateStyles = document.querySelectorAll(".alternate-style");
+// function setActiveStyle(color)
+// {
+//     alternateStyles.forEach((style) => {
+//         if(color === style.getAttribute("title"))
+//         {
+//             style.removeAttribute("disabled");
+//         }
+//         else
+//         {
+//             style.setAttribute("disabled","true");
+//         }
+//     })
+// }
 /* =========================== theme light and dark mode ========================= */
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
